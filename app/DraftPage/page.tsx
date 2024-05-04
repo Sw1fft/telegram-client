@@ -1,3 +1,5 @@
+"use client";
+
 import { GetAllDocuments } from "@/Services/DocumentsService";
 import { Drafts } from "@/Components/Drafts";
 import { useEffect, useState } from "react";

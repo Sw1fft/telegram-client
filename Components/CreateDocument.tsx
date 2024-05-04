@@ -948,7 +948,7 @@ export const CreateDocument = ({
                 <div>
                     <h2>РАБОТА КОНДИЦИОНЕРА</h2>
                     <div className="input-block">
-                        <label>Работа кондиционера "AC"</label>
+                        <label>Работа кондиционера AC</label>
                         <Select>
                             <Select.Option>Да</Select.Option>
                             <Select.Option>Нет</Select.Option>

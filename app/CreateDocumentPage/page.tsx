@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { CreateNewDocument } from "@/Services/DocumentsService";
 import { CreateDocument } from "@/Components/CreateDocument";

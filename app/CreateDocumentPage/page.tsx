@@ -1,3 +1,5 @@
+'use client';
+
 import { CreateNewDocument } from "@/Services/DocumentsService";
 import { CreateDocument } from "@/Components/CreateDocument";
 import { DocumentRequest } from "@/Contracts/Request";

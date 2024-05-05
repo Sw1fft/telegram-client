@@ -4,6 +4,7 @@ import { MenuOutlined } from "@ant-design/icons";
 import { Dropdown, MenuProps } from "antd";
 import DraftPage from "./DraftPage/page";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const [isPage, setIsPage] = useState(false);
@@ -27,7 +28,7 @@ export default function Home() {
         <header className="p-1 rounded-md" style={{backgroundColor: 'rgb(3,105,161)'}}>
           <div className="flex justify-between items-center sm:px-10">
             <div>
-              <img src="/logo.png" alt="logo" width={200}/>
+              <Image src={"/logo.png"} alt="logo" width={200} height={100}/>
             </div>
             <div>
               <Dropdown menu={{items}} className="flex size-10 items-center justify-center">
